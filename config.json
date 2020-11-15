@@ -1,0 +1,9 @@
+{
+    "prefix" : "tba",
+    "token" : "NzcyOTMyMTEyODgxOTQyNjE5.X6B3IA.flFWmkYNZTYAp4rvIZQYKH6vY1g",
+    "options" : {
+        "headers" : {
+            "X-TBA-Auth-Key" : "a0GVVMsyMlii325RLzZkcIehFZvOKnWwQ0EZ55A4D3QlnVrAnHzYAiMol56fhQnv"
+        }
+    }
+}
