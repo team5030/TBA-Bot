@@ -1,10 +1,10 @@
 {
     "prefix" : "tba",
-    "token" : "NzcyOTMyMTEyODgxOTQyNjE5.X6B3IA.flFWmkYNZTYAp4rvIZQYKH6vY1g",
+    "token" : "token-removed",
     "api" : "https://www.thebluealliance.com/api/v3",
     "options" : {
         "headers" : {
-            "X-TBA-Auth-Key" : "a0GVVMsyMlii325RLzZkcIehFZvOKnWwQ0EZ55A4D3QlnVrAnHzYAiMol56fhQnv"
+            "X-TBA-Auth-Key" : "token-removed"
         }
     }
 }
