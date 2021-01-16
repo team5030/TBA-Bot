@@ -1,4 +1,5 @@
 {
     "config" : "configs/config.json",
-    "response" : "configs/response.json"
+    "response" : "configs/response.json",
+    "update" : "update.sh"
 }
