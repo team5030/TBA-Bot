@@ -6,7 +6,10 @@ const { team } = require(`../${filePath.response}`);
 module.exports = {
 	name: 'team',
 	description: 'Information about the team provided.',
-	args: true,
+    args: true,
+    /**
+     * @param {Message} message The message from user
+     */
 	execute(message, args) {
         console.log(args);
         let json = team;

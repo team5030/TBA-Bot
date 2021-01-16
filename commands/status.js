@@ -8,6 +8,9 @@ module.exports = {
 	name: 'status',
 	description: 'Information about the status of https://www.thebluealliance.com/',
     args: false,
+    /**
+     * @param {Message} message The message from user
+     */
     execute(message) {
         const url = `${api}/status`;
         https.get(url,options, (res) => {
