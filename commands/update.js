@@ -10,6 +10,6 @@ module.exports = {
      */
 	execute(message) {
         if(message.author.id != '287765319311687682') return;
-        shell.exec(`../${update}`);
+        shell.exec(`./${update}`);
     },
 };
