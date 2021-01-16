@@ -9,6 +9,7 @@
   "author": "Team 5030",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.5.1"
+    "discord.js": "^12.5.1",
+    "shelljs": "^0.8.4"
   }
 }
