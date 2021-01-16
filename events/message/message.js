@@ -1,4 +1,5 @@
-const { prefix } = require('../../config.json');
+const filePath = require('../../filePaths.json');
+const { prefix } = require(`../../${filePath.config}`);
 module.exports = (client, message) => {
 	if (!message.content.startsWith(prefix) || message.author.bot) return;
 

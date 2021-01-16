@@ -1,7 +1,8 @@
 const https = require('https');
 const { MessageEmbed } = require('discord.js');
-const { api, options } = require('../config.json');
-const { team } = require('../templet.json');
+const filePath = require('../filePaths.json');
+const { api, options } = require(`../${filePath.config}`);
+const { team } = require(`../${filePath.response}`);
 module.exports = {
 	name: 'team',
 	description: 'Information about the team provided.',

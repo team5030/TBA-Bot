@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
-const { token } = require('./config.json');
+const filePath = require('./filePaths.json');
+const { token } = require(`./${filePath.config}`);
 
 const client = new Discord.Client();
 client.commands = new Discord.Collection();

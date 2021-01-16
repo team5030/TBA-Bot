@@ -1,0 +1,4 @@
+{
+    "config" : "configs/config.json",
+    "response" : "configs/response.json"
+}

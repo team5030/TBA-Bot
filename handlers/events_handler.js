@@ -8,5 +8,5 @@ module.exports = (client) => {
 			client.on(event_name, event.bind(null, client));
 		}
 	};
-	['client', 'guild', 'message'].forEach(dirs => load_dir(dirs));
+	['client', 'message'].forEach(dirs => load_dir(dirs));
 };
