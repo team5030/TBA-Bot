@@ -35,6 +35,7 @@ module.exports = {
                     )
                     .setTimestamp()
                     .setColor('#3F51B5');
+                //send message
                 try {
                     message.reply(null,reply);
                     }
