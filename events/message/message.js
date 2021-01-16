@@ -7,8 +7,10 @@ module.exports = (client, message) => {
 	
 	const command = args.shift().toLowerCase();
 
-	if (!client.commands.has(command)) return;
-
+	if (!client.commands.has(command)){
+		message.reply('this command does not exsist. Type the following command for help ```tba help``` ');
+		return;
+	}
 	try {
 		client.commands.get(command).execute(message, args);
 	}
