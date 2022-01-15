@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.5.1",
-    "shelljs": "^0.8.4"
+    "shelljs": "^0.8.5"
   }
 }
